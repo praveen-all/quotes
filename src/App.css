@@ -1,0 +1,93 @@
+/* Add these styles to your CSS file or in your React component as inline styles */
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(to right, rgb(41, 9, 127), rgba(82, 45, 182, 0.741));
+}
+
+.li {
+  list-style: none;
+  font-weight: 200;
+  color: rgba(255, 255, 255, 0.727);
+  text-decoration: none;
+}
+
+* {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.app-container {
+  height: 100%;
+  width: 100%;
+  /* background: green; */
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  margin-bottom: 20px;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.red-box {
+  background: rgba(236, 78, 78, 0.887);
+  padding: 30px 10px;
+  border-radius: 10px;
+  min-width: 300px;
+  min-height: 250px;
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  color: white;
+}
+
+.p-big {
+  font-size: 22px;
+}
+
+.input-section {
+  margin-top: 20px;
+  display: flex;
+}
+
+
+.select-field,
+.next-button {
+  padding: 8px 30px;
+
+  margin-right: 10px;
+  border-radius: 50px;
+}
+
+.btn-next {
+  background-color: green;
+  margin-top: 20px;
+  padding: 5px 10px;
+  color: white;
+  border-radius: 30px;
+  border: none;
+}
+.dark{
+  color: white;
+  font-weight: bold;
+}
